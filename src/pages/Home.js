@@ -23,7 +23,7 @@ export function Home(props) {
         <Card key={itemkey} className="position-relative">
           <a href={itemLink} className="position-absolute" style={{top:0, left:0, right:0,bottom:0}}>
           </a>
-          <ItemImage source={ book.cover_image} />
+          <ItemImage source="https://images.saymedia-content.com/.image/t_share/MTc2NzU2MTE1OTY1NjgzMjA4/movies-like-fight-club-.jpg" />
           <Card.Body>
             <Card.Title>{ book.book_title }</Card.Title>
           </Card.Body>

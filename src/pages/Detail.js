@@ -28,7 +28,7 @@ export function Detail(props) {
         </Row>
         <Row>
           <Col md={6}>
-            <ItemImage source={bookData.cover_image} />
+            <ItemImage source="https://images.saymedia-content.com/.image/t_share/MTc2NzU2MTE1OTY1NjgzMjA4/movies-like-fight-club-.jpg" />
           </Col>
           <Col md={6}>
             <h2>More information</h2>

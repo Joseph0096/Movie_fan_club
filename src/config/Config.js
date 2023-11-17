@@ -1,8 +1,8 @@
 export const FirebaseConfig = {
-  apiKey: "AIzaSyA0KziJxDjxoqIAZu-d0K6eoA83FsGQqow",
-  authDomain: "classproject2-f9ca7.firebaseapp.com",
-  projectId: "classproject2-f9ca7",
-  storageBucket: "classproject2-f9ca7.appspot.com",
-  messagingSenderId: "424302348224",
-  appId: "1:424302348224:web:3b23db88eb2623003e6a25"
+  apiKey: "AIzaSyCdvpc4F42xtv7GouWiTcYCf5NGTos7z_0",
+  authDomain: "movie-fan-club.firebaseapp.com",
+  projectId: "movie-fan-club",
+  storageBucket: "movie-fan-club.appspot.com",
+  messagingSenderId: "609343498813",
+  appId: "1:609343498813:web:c825f9cb68efbc5ed6d854",
 }
