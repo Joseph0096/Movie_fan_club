@@ -28,7 +28,7 @@ export function Detail(props) {
         </Row>
         <Row>
           <Col md={6}>
-            <ItemImage source="https://images.saymedia-content.com/.image/t_share/MTc2NzU2MTE1OTY1NjgzMjA4/movies-like-fight-club-.jpg" />
+            <ItemImage source={bookData.cover_image}/>
           </Col>
           <Col md={6}>
             <h2>More information</h2>
@@ -45,7 +45,7 @@ export function Detail(props) {
                 <Form.Label>Star</Form.Label>
                 <Form.Select>
                   <option value="1">1</option>
-                  <option value="2">2</option>
+                  <option value="2">2</option>n
                   <option value="3">3</option>
                   <option value="4">4</option>
                   <option value="5">5</option>

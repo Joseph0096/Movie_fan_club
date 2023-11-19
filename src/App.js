@@ -41,7 +41,7 @@ function App() {
 
   // navigation array
   const NavItems = [
-    { label: "Home", link: "/" },
+    { label: "Home", link: "/Home" },
     { label: "About", link: "/about" },
     { label: "Contact", link: "/contact" },
     { label: "Create Account", link: "/signup" },
@@ -50,7 +50,7 @@ function App() {
   // navigation for authenticated user
 
   const AuthNavItems = [
-    { label: "Home", link: "/" },
+    { label: "Home", link: "/Home" },
     { label: "About", link: "/about" },
     { label: "Contact", link: "/contact" }
   ]
@@ -140,8 +140,8 @@ function App() {
       <AuthContext.Provider value={auth}>
         <StorageContext.Provider value={FBstorage}>
           <Routes>
-            <Route path="/" element={<Home items={data} />} />
-            <Route path="/about" element={<About greeting="Hey you, this is about page!" handler={saySomething} />} />
+            <Route path="/Home" element={<Home items={data} />} />
+            <Route path="/About" element={<About greeting="Hey you, this is about page!" handler={saySomething} />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/signup" element={<Signup handler={signUp} />} />
             <Route path="/signout" element={<Signout handler={logOut} />} />
